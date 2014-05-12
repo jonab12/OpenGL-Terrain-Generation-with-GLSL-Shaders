@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="bitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mathlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="terrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WGL_ARB_multisample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bitmap.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gl_font.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathlib.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="terrain.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WGL_ARB_multisample.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Textures\dirt.JPG">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Content\Textures\grass.JPG">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Content\Textures\rock.JPG">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Content\Textures\snow.JPG">
+      <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="Content\Shaders\terrain.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include Files">
+      <UniqueIdentifier>{ebd4d42f-572a-4f0e-836d-21e877582243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{39252d08-5d82-454d-a172-4e10ef6d919b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{732d6456-4733-4d4b-9cfc-42027453caf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{e19898ad-afd1-4c7f-a045-391b7a02ad4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{0332acbd-9836-4ec2-bab9-07e43bff0b13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
